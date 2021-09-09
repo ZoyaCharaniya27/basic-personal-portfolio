@@ -1,0 +1,55 @@
+@import 'utility.css';
+:root{
+    --primary:#bd4545;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+header{
+    background: var(--dark);
+    height: 800px;
+    clip-path: polygon(0 0,100% 0, 100% 100%, );
+}
+
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header nav .left a{
+    color: var(--primary);
+    margin: 2rem;
+    text-transform: uppercase;
+}
+header nav .left a:hover{
+    color:var(--pure)
+}
+.hero .left img{
+    line-height: 2;
+    width: 600px;
+}
+.hero .right {
+    color: var(--pure);
+    margin-left: 2rem;
+}
+.hero .right h6{
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 1.7rem;
+    line-height: 2;
+}
+.hero .right h4{
+    line-height: 2;
+}
+.section .right{
+    padding: 6rem 0;
+    margin-left: 2rem;
+}
